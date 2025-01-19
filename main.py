@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from csv import writer
 
 # Web scraping yapılacak URL
-url = "https://www.sadikturan.com"
+url = input("lütfen bir url giriniz! ")
 
 def fetch_courses(url):
     """
